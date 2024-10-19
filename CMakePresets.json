@@ -33,7 +33,17 @@
     {
       "name": "msvc-x64_ninja",
       "inherits": "common",
-      "generator": "Ninja"
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": {
+          "type": "STRING",
+          "value": "cl"
+        },
+        "CMAKE_CXX_COMPILER": {
+          "type": "STRING",
+          "value": "cl"
+        }
+      }
     }
   ],
   "buildPresets": [
