@@ -32,7 +32,8 @@
     },
     {
       "name": "msvc-x64_ninja",
-      "inherits": "common"
+      "inherits": "common",
+      "generator": "Ninja"
     }
   ],
   "buildPresets": [
